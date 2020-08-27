@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: rgba(192, 192, 192, 0.1);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body > aside{
+  display: block;
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid rgba(0, 173, 238, 0.4);
+}
+
+body > aside > img{
+  display: block;
+  height: 120px;
+  margin: 0 auto;
+}
+
+body > main{
+  margin-left: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body > aside > nav > ul >  li{
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px rgba(0, 173, 238, 0.4);
+  margin: 10px auto;
+  padding-bottom: 10px;
+  width:80%;
+  line-height: 2;
+}
+
+body > aside > nav > ul >  li > a{
+  font-weight: bold;
+  color: rgb(0, 173, 238);
+  text-decoration: none;
+}
+
+body > aside > nav > ul >  li > a:hover{
+  text-decoration: underline;
+}
+
+body > main > header{
+  height: 120px;
+}
+
+body > main > header > img{
+  height: 80%;
+}
+
+body > main > img{
+  display: block;
+  width: 100%;
+}
+
+body > main > section > div{
+  display: inline-block;
+  width: 33%;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+body > main > section > div > h2{
+  color: #8CC36F;
+}
+
+body > main > section > div > i{
+  margin-right: 10px;
+}
+
+#what-we-do, #our-work{
+  border-right: 1px solid rgba(170, 239, 135, 0.8);
+}
+
+#our-work, #contact-us{
+  padding-left: 20px;
+}
+

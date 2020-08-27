@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="main-content">
+        <span class="notdone">Wait, hammer time.</span>
+        <span>Get a little lower now.</span>
+        Below is a table.
+        <input type=text id="inputText"/>
+    </section>
+    <table>
+        <tr>
+            <td>Hello</td><td>World</td>
+        </tr>
+    </table>
+</body>
+<style>
+    table > tbody > tr > td {
+        background-color: red;
+    }
+    .done {
+        background-color: green;
+        color: yellow;
+    }
+    .notdone {
+        border: 5px;
+        border-style: solid;
+    }
+</style>
+<script>
+    function HelloWorld()
+    {
+        let element = document.querySelector("#main-content span");
+        let userInput = document.getElementById("inputText");
+        //alert(userInput.value);
+        userInput.value = "Goodbye Jupiter";
+        element.innerHTML = '<strong>Stop!</strong> Hammer Time.';
+        element.classList.add("done");
+        //element.classList.remove("notdone");
+    }
+</script>
+</html>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDRoman", "TDDRoman.csproj", "{03F100F6-2A51-483C-9BC2-AD4B8AC510EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDRomanTests", "..\TDDRomanTests\TDDRomanTests.csproj", "{432B33FD-8A9C-41EB-9C80-F83759C9C4EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F100F6-2A51-483C-9BC2-AD4B8AC510EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F100F6-2A51-483C-9BC2-AD4B8AC510EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F100F6-2A51-483C-9BC2-AD4B8AC510EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F100F6-2A51-483C-9BC2-AD4B8AC510EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432B33FD-8A9C-41EB-9C80-F83759C9C4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432B33FD-8A9C-41EB-9C80-F83759C9C4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432B33FD-8A9C-41EB-9C80-F83759C9C4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432B33FD-8A9C-41EB-9C80-F83759C9C4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8BCC977-3190-492B-9578-A502604FFE1F}
+	EndGlobalSection
+EndGlobal

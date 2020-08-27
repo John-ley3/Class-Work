@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="foo" style="border: 2px;border-style: solid;border-color: green;">
+        <p id="innerP" style="border: 2px;border-style: solid;border-color: blue;">Inner mind</p>
+    </div>
+</body>
+<script>
+    let p = document.getElementById('innerP');
+    // p.addEventListener('click',(event) => {
+    //     alert('Paragraph Clicked');
+    // })
+    let d = document.getElementById('foo');
+    d.addEventListener('click',(event) => {
+        alert('Div clicked ' + event.target.innerText + " -- ct " + event.currentTarget);
+    })
+</script>
+</html>
